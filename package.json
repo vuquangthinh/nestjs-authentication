@@ -2,7 +2,6 @@
   "name": "@vuquangthinh/nestjs-authentication",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
   "repository": "https://github.com/vuquangthinh/nestjs-authentication.git",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
