@@ -1,6 +1,6 @@
 {
   "name": "@vuquangthinh/nestjs-authentication",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "https://github.com/vuquangthinh/nestjs-authentication.git",
   "main": "dist/index.js",
@@ -14,15 +14,22 @@
   },
   "dependencies": {
     "@agiletech.vn/nestjs-util": "^1.0.0",
+    "@nestjs/common": "^7.4.4",
     "@nestjs/passport": "^7.1.0",
+    "@nestjs/swagger": "^4.6.1",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/passport-jwt": "^3.0.3",
     "@types/uuid": "^3.4.4",
+    "jsonwebtoken": "^8.5.1",
+    "passport-jwt": "^4.0.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.2.2",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
     "@types/node": "^10.7.1",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.2",
+    "@types/passport": "1.0.4"
   },
   "peerDependencies": {
     "@nestjs/common": "^7.1.3",

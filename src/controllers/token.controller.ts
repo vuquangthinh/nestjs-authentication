@@ -27,6 +27,6 @@ export class TokenController {
       this.tokenService.remokeToken(data.refreshToken, TOKEN.ACCESS_TOKEN),
     ]);
 
-    return Response.Ok();
+    return new Response.Ok();
   }
 }
