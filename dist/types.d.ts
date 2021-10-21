@@ -1,0 +1,10 @@
+import * as jwt from "jsonwebtoken";
+export declare enum TOKEN {
+    ACCESS_TOKEN = "ACCESS_TOKEN",
+    REFRESH_TOKEN = "REFRESH_TOKEN"
+}
+export interface JwtOptions {
+    secretOrPrivateKey: jwt.Secret;
+    algorithm: jwt.Algorithm;
+}
+//# sourceMappingURL=types.d.ts.map
